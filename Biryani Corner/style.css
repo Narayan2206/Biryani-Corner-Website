@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    background-color: rgb(185, 145, 11);
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.main-heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: 0.1em;
+    /* border: 2px solid green; */
+    padding: 1% 0;
+    /* text-decoration: underline;
+    font-style: italic; */
+    
+}
+
+.main-container {
+    background-color: aliceblue;
+    max-width: 700px;
+    margin: auto;
+}
+
+#intro-img {
+    /* border: 2px solid red; */
+    /* display: block; */
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+
+#intro-img img {
+    width: 100%;
+    margin: auto;
+}
+
+.section-heading {
+    text-align: center;
+    /* font-family: 'Ubuntu', sans-serif; */
+    color: orangered;
+    margin: 4% auto;
+}
+
+.line-spacing {
+    width: 60%;
+    border: 0.5px solid red;
+    margin: 6% auto;
+}
+
+.menu-table table {
+    margin: auto;
+    font-size: 1.5em;
+    border-spacing: 0px;
+    width: 95%;
+}
+
+.tr-header {
+    background-color: rgb(180, 154, 114);
+}
+
+.menu-table td,
+.menu-table th {
+    padding: 2.3%;
+    /* font-family: 'Ubuntu', sans-serif; */
+    color: rgb(0, 0, 0);
+}
+.menu-table tr:nth-child(even){
+    background-color: rgb(224, 214, 214);
+}
+
+.menu-table td{
+    text-align: center;
+    padding: 15px 15px;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+.special-item-img {
+    max-width: 100%;
+}
+.extras-section{
+    margin-bottom: 5%;
+}
+
+.extra-items {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.extra-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption span{
+    display: block;
+    text-align: center;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-weight: 900;
+    
+}
+
+section{
+    margin-top: 8% ;
+    margin-bottom: 8% ;
+}
+
+section p{
+    font-size: 1.1em;
+    line-height: 1.7em;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-contact{
+    padding-bottom: 2% ;
+}
+
+.email-link{
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+.email-link:hover{
+    color: rgb(128, 13, 13);
+}
+
+footer p{
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+    color: rgb(10, 5, 10) ;
+    font-size: 1.2em;
+}
+
